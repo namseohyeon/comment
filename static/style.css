@@ -1,16 +1,16 @@
 @import "reset.css";
 /* FONT */
 @font-face {
-  font-family: "CookieRunOTF-Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff")
+   font-family:  'Nanum Pen Script', cursive;
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff") */
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .notosanskr * {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", sans-serif; 
 }
 
 html,
@@ -22,8 +22,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: #ebf0f1;
+  font-family: 'Nanum Brush Script', cursive;
+  background-color: rgb(108, 107, 109);
 }
 
 /* header */
@@ -33,7 +33,7 @@ header {
   flex-direction: row;
   width: 100%;
   height: 10%;
-  background-color: #092e20;
+  background-color: rgb(39, 39, 39);
   color: white;
 }
 
@@ -41,7 +41,7 @@ header h1 {
   display: inline-block;
   padding: 10px;
   margin: 10px;
-  font-family: "CookieRunOTF-Bold";
+  font-family: 'Press Start 2P', cursive;
 }
 header a {
   all: unset;
@@ -62,7 +62,7 @@ section {
 /* footer */
 
 footer {
-  background-color: #44b78b;
+  background-color: #423850;
   width: 100%;
   display: flex;
   align-items: center;
@@ -77,13 +77,13 @@ footer p {
 /* 공통 요소 */
 
 h3 {
-  color: #0c4b33;
+  color: #000000;
   font-size: 2rem;
 }
 
 .date {
   font-size: 9pt;
-  color: gray;
+  color: rgb(156, 156, 156);
 }
 
 /* home.html */
@@ -91,7 +91,7 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px dashed #092e20;
+  border: 1px ridge #0c4b33;
   margin: 1em 1em;
 }
 
@@ -109,7 +109,7 @@ h3 {
 
 .preview {
   font-size: 9pt;
-  color: gray;
+  color: rgb(156, 156, 156);
   margin-bottom: 0px;
 }
 
